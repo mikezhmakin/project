@@ -3,12 +3,14 @@
 /* CSS files add styling rules to your content */
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
-
+div.hero {
+  background-image: url(https://cdn.glitch.com/d0552930-91d0-43e4-a4d0-1ca05ad74053%2Ff948dda8-5d67-40f7-847e-bf702bde5f72.image.png?v=1597720439016);
+    background-size: cover;
+  
+  
+}
 body {
   
-background: #ADA996;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 p {
@@ -21,11 +23,6 @@ h1{
 h1{
   
 }
-
-div.hero {
- 
-}
-
 }
 header li {
  
