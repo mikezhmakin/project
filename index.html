@@ -12,10 +12,10 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <title>Home</title>
     <link rel="stylesheet" href="style.css" />
+    <title>Home</title>
   </head>
-  <body class="bg-dark">
+  <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">
@@ -67,9 +67,8 @@
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a class="dropdown-item" href="supplies.html">Supplies</a>
                 <a class="dropdown-item" href="wood.html">Types of Wood</a>
-                <a class="dropdown-item" href="contact.html">Contact</a>
+                <a class="dropdown-item" href="supplies.html">Supplies</a>
               </div>
             </li>
           </ul>
@@ -81,29 +80,67 @@
         class="jumbotron jumbotron-fluid bg-secondary text-center welcome p-0 d-flex flex-column justify-content-center m-0"
       >
         <div class="container text-light">
-          <h1 class="display-4">WoodWorking For Dummies</h1>
+          <h1 class="display-4">WoodWorking For Beginners</h1>
         </div>
       </div>
-      <div class="container-xl bg-dark p-3">
-        <img
-          src="https://cdn.glitch.com/d0552930-91d0-43e4-a4d0-1ca05ad74053%2Fe1ea60e0-9b45-4488-890c-c8d6ce2e2291.image.png?v=1598314941926"
-          alt="Wood"
-          width="100%"
-        />
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="max-height:800px;">
+            <img
+              src="https://cdn.glitch.com/d0552930-91d0-43e4-a4d0-1ca05ad74053%2Fe5e0cfef-f5c8-448d-a1dc-b65a2f58149d.image.png?v=1598313623461"
+              class="d-block w-100"
+              alt="Tools"
+            />
+          </div>
+          <div class="carousel-item" style="max-height:800px;">
+            <img
+              src="https://cdn.glitch.com/d0552930-91d0-43e4-a4d0-1ca05ad74053%2Fe1ea60e0-9b45-4488-890c-c8d6ce2e2291.image.png?v=1598314941926"
+              class="d-block w-100"
+              alt="CurvedWood"
+            />
+          </div>
+          <div class="carousel-item" style="max-height:800px;">
+            <img
+              src="https://cdn.glitch.com/d0552930-91d0-43e4-a4d0-1ca05ad74053%2F50e5ec9a-90da-4691-83c2-a8c57af5b1ba.image.png?v=1598314902885"
+              class="d-block w-100"
+              alt="DarkWood"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
       <div
         class="jumbotron jumbotron-fluid bg-secondary text-center text-light"
       >
         <div class="container">
-          <h1 class="display-4">Welcome to WoodWorking for Dummies</h1>
+          <h1 class="display-4">Welcome to WoodWorking for Beginners</h1>
           <h2 class="lead">
             This Website Will Explain the Basics of WoodWorking, Basic and Easy
             Projects, and why WoodWorking is Such a Cool Hobby!
           </h2>
-          <h5>
-            Please Refer to the <a href="#">Top of the Page</a> For
-            More!
-          </h5>
+          <h5>Please Refer to the <a href="#">Top of the Page</a> For More!</h5>
         </div>
       </div>
     </main>
