@@ -3,34 +3,41 @@
 /* CSS files add styling rules to your content */
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
-div.hero {
-  background-image: url(https://cdn.glitch.com/d0552930-91d0-43e4-a4d0-1ca05ad74053%2Ff948dda8-5d67-40f7-847e-bf702bde5f72.image.png?v=1597720439016);
-  background-size: cover;
+
+* {
+  box-sizing: border-box;
 }
 body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 p {
 }
 h1 {
 }
-h1 {
+a,
+a:link,
+a:visited,
+a:hover {
+  color: #444;
 }
-header li {
-}
-
 footer {
   text-align: center;
+}
+
+.carousel-inner .carousel-item {
+  max-height: 800px;
+}
+.wood-type img {
+  height: 400px;
+}
+
+div.hero {
+  background-image: url(https://cdn.glitch.com/d0552930-91d0-43e4-a4d0-1ca05ad74053%2Ff948dda8-5d67-40f7-847e-bf702bde5f72.image.png?v=1597720439016);
+  background-size: cover;
 }
 .welcome {
   hieght: 50vh;
   min-height: 300px;
-}
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Float four columns side by side */
@@ -41,13 +48,15 @@ body {
 }
 
 /* Remove extra left and right margins, due to padding in columns */
-.row {margin: 0 -5px;}
+.row {
+  /*   margin: 0 -5px; */
+}
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
+  /*   content: "";
   display: table;
-  clear: both;
+  clear: both; */
 }
 
 /* Style the counter cards */
